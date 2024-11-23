@@ -7,19 +7,28 @@
         {
             "name": "shoe_finder",
             "request": "launch",
-            "type": "dart"
+            "type": "dart",
+            "env": {
+                "API_KEY": "AIzaSyCa4F5L1CUA-JDSFsGD3Cowc7QGLacwhx8"
+            }
         },
         {
             "name": "shoe_finder (profile mode)",
             "request": "launch",
             "type": "dart",
-            "flutterMode": "profile"
+            "flutterMode": "profile",
+            "env": {
+                "API_KEY": "AIzaSyCa4F5L1CUA-JDSFsGD3Cowc7QGLacwhx8"
+            }
         },
         {
             "name": "shoe_finder (release mode)",
             "request": "launch",
             "type": "dart",
-            "flutterMode": "release"
+            "flutterMode": "release",
+            "env": {
+                "API_KEY": "AIzaSyCa4F5L1CUA-JDSFsGD3Cowc7QGLacwhx8"
+            }
         }
     ]
 }
