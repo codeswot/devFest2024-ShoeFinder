@@ -26,7 +26,13 @@ class ResultScreen extends StatefulWidget {
 }
 
 class _ResultScreenState extends State<ResultScreen> {
-  final geminiService = GeminiService(const String.fromEnvironment("API_KEY"));
+  static String apiKey = const String.fromEnvironment("API_KEY");
+
+  final geminiService = GeminiService(apiKey);
+  @override
+  void initState() {
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
