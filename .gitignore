@@ -44,3 +44,5 @@ app.*.map.json
 
 # VsCode related
 .vscode/
+.vscode/*
+.vscode/launch.json
